@@ -1,5 +1,9 @@
 # vim: ft=perl
 
+$latex = 'latex %O --shell-escape %S';
+$pdflatex = 'pdflatex %O --shell-escape %S';
+$lualatex = 'lualatex %O --shell-escape %S';
+
 # -- bib2gls support ---------------------------------------------------------
 
 # Sources:
